@@ -1,0 +1,511 @@
+ /* لصفحات ال hpl الداخليه  */
+ 
+ 
+ 
+ 
+ /* main comment start */
+   
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end comments  */
+ 
+ 
+ 
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: black ;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #ea7842;
+}
+ 
+
+ 
+ 
+ .navbar-collapse{
+    justify-content: flex-end !important;
+
+}
+
+
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    position: relative;
+    background-color: white;
+
+}
+
+
+
+.navbar-expand-lg {
+    height: 10vh;
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+   
+   
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 3%;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+   line-height: 20px;
+}
+
+
+.navbar>.container-fluid {
+    height: 6vh;
+    z-index: 15000;
+}
+.navbar-brand img {
+    position: absolute;
+    z-index: 10000;
+    margin-left: 11%;
+    width: 200px;
+    height: 200px;
+    margin-top: -55px; 
+}
+.social .insta {
+    margin-left: -38%;
+      }
+
+@media(max-width:776px){
+    .navbar-brand img {
+        width: 52px;
+        height: auto;
+        margin-left: 5px;
+        margin-top: -28px;
+    }
+    .nav-bar {
+        margin-top: -63px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-right: 3%;
+        background-color: grey;
+        opacity: 0.9;
+        margin:32px;
+    }
+    .ser-jio{
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+}
+
+
+/* slider */
+.jioo h1 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+.jioo h1 span {
+    color: #ea7842;
+}
+.jioo  h1::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #ea7842;
+    transform: translateY(50%);
+    margin-top: 50px;
+    margin-left: 66px;
+}
+.jioo h1::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin-top:50px ;
+    transform: translateY(50%);
+    margin-left: -7.8%;
+}
+
+.hpl-main {
+    width: 49%;
+    margin-left:22.5% ;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+.hpl-main .h3 {
+    font-size: 23px;
+}
+.hpl-main .h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: -15px;
+}
+
+
+.ser-jio {
+    margin-left: 200px;
+    padding: 30px 10px;
+    margin-top: -30px;
+}
+
+
+.carousel-item img {
+     width: 1652px;
+     height: 1032.5px;
+}
+
+ /* end header styling */
+
+
+ 
+ /* page main */
+ 
+ 
+ .cards {
+ margin-left: 15%;
+ padding-top: 20px;
+
+ }
+ .cards img {
+    width: 382px;
+    height: 270px;
+    margin-left: 20px;
+    border: 1px solid #ea7842;
+ }
+ .card-text{
+    padding: 10px;
+   width: fit-content;
+ 
+  
+}
+.card-body {
+    width: 115%;
+    margin-left: 29%;
+    font-size: 18PX;
+    font-weight: 450;
+}
+
+.cards:hover  .card-body .card-text {
+   color: #ea7842;
+   transition: 0.9s;
+   border: 1px solid #ea7842;
+   background-color: #fafafa;
+}
+.ser-jio {
+    display: flex;
+ flex-wrap: wrap;
+
+
+}
+.card-container {
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9px;
+    margin-left: -20%;
+}
+
+
+.slider-cont {
+    width: 66%;
+    height: 119vh;
+    margin-left: 15%;
+    margin-bottom: -27%;
+}
+
+.carousel-item img {
+    height: 515.5px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #ea7842;
+}
+.carousel-control-next-icon {
+    background-color: #ea7842;
+}
+.carousel-indicators{
+   background-color:grey;
+   margin-bottom: 0;
+   color: #ea7842 !important;
+   width: fit-content;
+   margin-left: 45% !important;
+  
+}
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #ea7842 !important;
+   
+    
+}
+
+@media(max-width:776px){
+    .hpl-main .h3 {
+        font-size: 16px;
+        width: 204%;
+        margin-left: -107px;
+
+    }
+    .hpl-main .h6 {
+        font-size: 16px;
+        font-weight: 350;
+        line-height: 2;
+      
+        width: 204%;
+        margin-left: -97px;
+        margin-bottom: 39px;
+}
+.card-container{
+    margin-left: -15%;
+}
+
+.jioo h1::after {
+    margin-left: -24.3%;
+    margin-top: 46px;
+}
+.jioo h1::before {
+    margin-top: 46px;
+   
+    width: 38px;
+}
+.slider-cont {
+    width: 100%;
+    height: 70vh;
+    margin-left: 0;
+}
+
+.ser-jio {
+    margin-left: -20%;
+    padding: 30px 0;
+    margin-top: -30px;
+}
+
+
+}
+.ser-pag {
+    background-color: #fafafa;
+    margin-top: -100px;
+}
+
+.position-absolute {
+    position: absolute!important;
+    margin-top: -9%;
+    width: fit-content;
+    background-color: transparent;
+
+}
+.breadcrumb-item{
+    color: white;
+    padding-top: 13px;
+}
+.breadcrumb-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.breadcrumb-item .last-child {
+    color: #ea7842;
+    text-decoration: none;
+    font-weight: 700;
+}
+.breadcrumb-item a:hover{
+    color: #ea7842;
+}
+.card3 {
+    width: 90%;
+    margin: 8%;
+    padding: 20px;
+
+}
+.card3 img {
+    width: 1637px;
+    height: 299px;
+    margin-left: -82px;
+    opacity: 0.8;
+}
+
+.carousel {
+    width: 873px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.carousel-item img {
+    height: 474px;
+}
+.card-title {
+    z-index: 1500;
+    margin-top: -12%;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: -30%;
+    color: white;
+
+}
+.card-title::before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    transform: translateY(50%);
+    background-color: #ea7842;
+    top: 45px;
+    left: 90px;
+}
+.card-title::after{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    transform: translateY(50%);
+    background-color: white;
+    top: 45px;
+    margin-left: -68%;
+}
+.sm-text{
+    margin-left: -28%;
+    font-size: 17px;
+}
+.card-title span {
+    color: #ea7842;
+}
+.products-cont {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.h2
+{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.h2 p {
+    font-size: 18px;
+    font-weight: 450;
+   
+} 
+
+.products-cont .h4
+{
+    color: #ea7842;
+    margin-top: 45px;
+}
+ .sp-image-des    h5 {
+    color: rgb(193, 183, 183);
+}
+.sp-image-des img {
+    height: 250px;
+    width: 354px;
+    margin-bottom: 40px;
+}
+@media(max-width:776px){
+    .navbar-brand img {
+        width: 52px;
+        height: auto;
+        margin-left: 5px;
+        margin-top: -28px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-right: 3%;
+        background-color: grey;
+        opacity: 0.9;
+        margin:32px;
+    }
+    .ser-jio{
+        display: flex;
+        flex-direction: column;
+    }
+    .card3 {
+        width: 100%;
+        margin-left: -4%;
+        margin-top: -20px;
+    }
+    .card3 img{
+       width:131.5% ; 
+    }
+    .products-cont {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .carousel {
+        width: 100% !important;
+        margin-left: 0%;
+         margin-top: 5%;
+    }
+    .card-title{
+        margin-bottom: 2rem;
+    font-size: 21px;
+    margin-top: -152px;
+    }
+    .breadcrumb-item a {
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .bread nav {
+        width: 200%;
+    margin-left: -42px;
+    margin-top: -22%;
+    }
+    .card-title::before{
+        top: 28px;
+        left: 58px;
+        width: 28px;
+
+    }
+    .card-title::after {
+        top: 28px;
+        margin-left: -101px;
+        width: 17px;
+    }
+
+}
+
+
+
+
+/* start main page hpl toilet products */
+.sub-text  h4 {
+    margin-bottom: 30px;
+}
+.sub-text  h4 span {
+    color: #ea7842;
+
+}
+.sub-text p {
+    font-size: 15px;
+    font-weight: 450;
+}
+table {
+    margin-bottom: 40px;
+}
+.sub-sub-text {
+    margin-top: 20px;
+}
+.sub-sub-text h4 {
+    color: #ea7842;
+    margin-bottom: 30px;
+}
+.sub-sub-text p {
+    font-size: 15px;
+    font-weight: 450;
+}

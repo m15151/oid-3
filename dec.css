@@ -1,0 +1,284 @@
+ /* main comment start */
+   
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end comments  */
+ 
+ 
+ 
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: black ;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    color: #ea7842;
+}
+ 
+
+ 
+ 
+ .navbar-collapse{
+    justify-content: flex-end !important;
+
+}
+
+
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    position: relative;
+    background-color: white;
+
+}
+
+
+
+.navbar-expand-lg {
+    height: 10vh;
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+   
+   
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 3%;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 10px;
+ 
+}
+
+
+.navbar>.container-fluid {
+    height: 6vh;
+    z-index: 15000;
+}
+.navbar-brand img {
+    position: absolute;
+    z-index: 10000;
+    margin-left: 11%;
+    width: 200px;
+    height: 200px;
+    margin-top: -55px; 
+}
+
+@media(max-width:776px){
+    .navbar-brand img {
+        width: 52px;
+        height: auto;
+        margin-left: 5px;
+        margin-top: -28px;
+    }
+   
+
+}
+
+
+/* slider */
+.carousel-item img {
+     width: 1652px;
+     height: 1032.5px;
+}
+
+ /* end header styling */
+ .social .insta {
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    top: 6%;
+    left: 55%;
+    z-index: 10000;
+}
+
+.ser-jio{
+    margin-left: -120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.jioo div h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.jioo div h1::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #ea7842;
+    transform: translateY(50%);
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.jioo div h1::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin-top:50px ;
+    transform: translateY(50%);
+    margin-left:-9.3%;
+}
+.ser-jio .cards img {
+    width: 460px;
+    height: 320px;
+    border: 0.8px solid #ea7842;
+    margin-top: 40px;
+}
+.card-text{
+     padding: 10px;
+    width: fit-content;
+  
+   
+}
+.card-body{
+    margin-left: 140px;
+    font-size: 18px;
+}
+
+.cards:hover  .card-body .card-text {
+    color: #ea7842;
+    transition: 0.9s;
+    border: 1px solid #ea7842;
+    background-color: #fafafa;
+}
+
+
+.card-text2{
+    padding: 10px;
+   width: 143%;
+ 
+  
+}
+.cards:hover  .card-body .card-text2{
+    color: #ea7842;
+    transition: 0.9s;
+    border: 1px solid #ea7842;
+    background-color: #fafafa;
+}
+.card-body2 {
+    width: fit-content;
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.card-text3 {
+    width: 143%;
+   padding-left: 38px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.card-text3 a {
+    text-decoration: none;
+    color: #000;
+}
+.cards:hover  .card-body2 .card-text3 a{
+    color: #ea7842;
+}
+
+.cards:hover  .card-body2 .card-text3  {
+    color: #ea7842;
+    transition: 0.9s;
+    border: 1px solid #ea7842;
+    background-color: #fafafa;
+}
+.ser.pages  .dec-tex  {
+    COLOR: blueviolet !important;
+    margin-left: 20%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:776px){
+    .ser-jio{
+        margin-left:20px;
+        display: contents;
+    }
+    .jio-pa img{
+        padding: 0;
+        margin: 0;
+    }
+    .jio-cont {
+        margin-top: -40%;
+        margin-left: 3%;
+        padding: 0;
+        font-size: 25px;
+        opacity: 0.8;
+    }
+    .ser-jio .cards img {
+        
+        width: 394px;
+    }
+    .card-text{
+        margin-left: 35px;
+    }
+    .jioo div h1::before{
+        margin-left: 50px;
+    }
+    .jioo div h1::after {
+        margin-left: -23%;
+    }
+    .card-body {
+        margin: 0 90px;
+        width: 143%;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        margin-right: 3%;
+        background-color: grey;
+        opacity: 0.9;
+        margin:32px;
+    }
+
+   
+}
+/* end main decoration  */
+
+.card-text2{
+    padding: 10px;
+   width: 143%;
+ 
+  
+}
+.cards:hover  .card-body .card-text2{
+    color: #ea7842;
+    transition: 0.9s;
+    border: 1px solid #ea7842;
+    background-color: #fafafa;
+}
